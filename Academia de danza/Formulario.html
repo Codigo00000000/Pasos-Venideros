@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Contacto - Alma Latina</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style type="text/css">
+    body,td,th {
+	color: #2A005F;
+}
+body {
+    background-image: url(3.jpg);
+}
+    </style>
+</head>
+<body>
+    <header>
+      <h1>Contáctanos</h1>
+        <nav>
+            <a href="AcademiaD.html">Inicio</a> |
+            <a href="Horarios.html">Clases</a> |
+            <a href="Formulario.html">Contacto</a>
+        </nav>
+    </header>
+
+<section>
+        <h2>Formulario de Inscripción</h2>
+        <form action="enviar.php" method="post">
+          <p>
+            <label for="nombre2"><span style="text-align: left">Nombre:</span></label>
+              <span style="text-align: left">.........................................Primer Apellido:............................Segundo Apellido:<br>
+              <input type="text" id="nombre2" name="nombre2" required>
+................
+<label for="textfield3">:</label>
+<input type="text" name="textfield3" id="textfield3">
+.............
+<label for="textfield4">:</label>
+<input type="text" name="textfield4" id="textfield4">
+<br>
+<br>
+<!-- Correo Electrónico -->
+<label for="email2">Correo Electrónico:</label>
+<br>
+<input type="email" id="email2" name="email2" required>
+<br>
+<br>
+<!-- Teléfono -->
+<label for="telefono">Teléfono:</label>
+.........................................Otro teléfono:<br>
+<input type="tel" id="telefono" name="telefono">
+              </span> ................
+              <label for="textfield2">:</label>
+              <input type="text" name="textfield2" id="textfield2">
+            </p>
+            <hr>
+          <p>&nbsp;</p>
+            <p>
+              <label for="textfield">Domicilio:</label>
+              <input type="text" name="textfield" id="textfield">
+              <span style="text-align: left">
+                <label for="textfield5">Colonia:</label>
+                <input type="text" name="textfield5" id="textfield5">
+                <label for="textfield6">Codigo postal:</label>
+                <input type="text" name="textfield6" id="textfield6">
+                <br>
+                <br>
+                <!-- Fecha de Nacimiento -->
+                <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                ....................Lugar de nacimiento:<br>
+  <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+                ..............
+  <label for="textfield7">:</label>
+  <input type="text" name="textfield7" id="textfield7">
+  <br>
+  <br>
+  <!-- Género -->
+  <label>Género:</label>
+  <br>
+  <input type="radio" id="masculino" name="genero" value="Masculino">
+  <label for="masculino">Masculino</label>
+  <input type="radio" id="femenino2" name="genero" value="Femenino">
+  <label for="femenino2">Femenino</label>
+  <input type="radio" id="otro2" name="genero" value="Otro">
+  <label for="otro2">Otro</label>
+  <br>
+  <br>
+  <!-- Dirección -->
+  <label for="direccion">Dirección:</label>
+  <br>
+  <textarea id="direccion" name="direccion" rows="4" cols="50"></textarea>
+  <br>
+  <br>
+  <!-- País -->
+  <label for="pais">Nacionalidad:</label>
+  <br>
+  <select id="pais" name="pais">
+    <option value="mexico">México</option>
+    <option value="españa">España</option>
+    <option value="argentina">Argentina</option>
+    <option value="colombia">Colombia</option>
+    <option value="chile">Chile</option>
+    <option value="otros">Otros</option>
+  </select>
+  </span></p>
+            <p><span style="text-align: left">
+              <label for="recomienda">¿Padece alguna enfermedad cronica?</label>
+              <br>
+              <input type="radio" id="si" name="recomienda" value="Si">
+              <label for="si">Sí</label>
+              <br>
+              <input type="radio" id="no" name="recomienda" value="No">
+              <label for="no">No</label>
+              <br>
+              <br>
+              <!-- Comentarios -->
+              <label for="comentarios">¿Cual?:</label>
+              <br>
+              <textarea id="comentarios" name="comentarios" rows="5" cols="50"></textarea>
+<br>
+            </span></p>
+            <p><br>
+              <br>
+              
+              <label for="estilo">Estilo de danza que te interesa:</label>
+              <br>
+              <select id="estilo" name="estilo">
+                <option value="salsa">Salsa</option>
+                <option value="ballet">Ballet</option>
+                <option value="hiphop">Hip Hop</option>
+              </select>
+              <br><br>
+              
+              <input type="submit" value="Enviar">
+            </p>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pasos Venideros</p>
+    </footer>
+</body>
+</html>
